@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600,700%27');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    font-family: Hind Vadodara;
+    font-weight: lighter;
+
+}
+
+
+html,
+body {
+  padding: 0;
+}
+
+body {
+    font-size: 20px;
+    line-height: 2; 
+    weight: 300;
+}
+
+header {
+    background-image: url("../images/apple-pie.jpg");
+    background-size:cover;
+    max-width: 100%;
+    height:140vh;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+}
+
+section, h2 {
+    font-size:2.2rem;
+}
+
+section {
+    line-height:1.2;
+    margin: 130px 150px;
+    margin-bottom: 50px;
+}
+
+
+/* ------ SECTION 1 ----- */
+
+#intro {
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+#intro img{
+    margin-top: 50px;
+    height: 12vh;
+}
+
+hr {
+    margin: 0px auto 30px auto;
+    width: 79%;
+}
+
+
+/* ----- SECTION 2 ----- */
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#ingredients, #directions {
+    margin-top: 50px ;
+}
+
+
+
+#ingredients ul li{
+    font-size:1.9rem;
+}
+
+#ingredients img {
+    padding:50px 380px;
+    width: 100%;
+}
+
+
+/* ----- SECTION 3 ----- */
+
+#directions ol li {
+    font-size:1.8rem;
+    margin-bottom: 10px;
+}
+
+#directions {
+    margin-bottom: 100px;
+}
